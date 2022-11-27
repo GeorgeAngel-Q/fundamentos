@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>EXAMEN_DE_ENTRADA</TITLE>
+	</HEAD>
+	<BODY onload="examen_de_entrada();">
+		<SCRIPT type="text/javascript">
+		
+			function areat(h, b) {
+				var area = new Number();
+				area = (h*b)/2;
+				return area;
+			}
+			
+			function examen_de_entrada() {
+				var h = new Number();
+				var b = new Number();
+				document.write("Funcion Area del Triangulo",'<BR/>');
+				document.write("",'<BR/>');
+				document.write("Altura: ",'<BR/>');
+				h = Number(prompt());
+				document.write(h)
+				document.write("",'<BR/>');
+				document.write("Base: ",'<BR/>');
+				b = Number(prompt());
+				document.write(b)
+				document.write("",'<BR/>');
+				document.write("Area del Triangulo= ",areat(h,b),'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
